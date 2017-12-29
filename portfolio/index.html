@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" media="screen and (min-width: 850px)" href="css/above850.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="css/above900.css">
     <link rel="stylesheet" media="screen and (min-width: 510px) and (max-width: 650px)" href="css/510to650.css">
-    <link rel="stylesheet" media="screen and (min-width: 230px) and (max-width: 435px)" href="css/230to435.css">
+    <link rel="stylesheet" media="screen and (min-width: 350px) and (max-width: 435px)" href="css/350to435.css">
+    <link rel="stylesheet" media="screen and (max-width: 349px)" href="css/below350.css">
     </head>
     <body>
-        <header>
-            <h1>Ben Love</h1>
-            <h4>Full Stack Web and Data Analysis</h4>
-        </header>
+        <div class="flex-header">
+            <img class="logo" src="img/logo3.png" alt="Logo picture.">
+            <header>
+                <h1>Ben Love</h1>
+                <h4>Full Stack Web and Data Analysis</h4>
+            </header>
+        </div>
         <hr>
-            <img class="top-picture" src="img/british-columbia.png" alt="Picture of me.">
+            <img class="top-picture" src="img/british-columbia.png" alt="Picture from British Columbia.">
         <main>
             <div class="subheader">
                 <h3>Featured Work</h3>
             </div>
-            <section>
-                <article>
-                    <a href="https://pyjsviz.benlove.info/">
+            <section class="flex-container">
+                <article class="project">
+                    <a href="https://pyjsviz.benlove.info/" target="_blank">
                     <img class="project-img" src="img/pyjsviz.png" alt="Data visualization of Arkansas eduation data."></a>
                     <h3>DATAVIZ</h3>
                     <p>https://pyjsviz.benlove.info/</p>
@@ -31,8 +35,8 @@
                         Arkansas education dataviz using Python's Bokeh library and Google Maps.
                     </div>
                 </article>
-                <article>
-                    <a href="https://benlove.info/login.php">
+                <article class="project">
+                    <a href="https://benlove.info/login.php" target="_blank">
                     <img class="project-img" src="img/bff.png" alt="Picture of fuel route optimization app for diesel trucks."></a>
                     <h3>BFF</h3>
                     <p>https://benlove.info/login.php</p>
@@ -40,8 +44,8 @@
                         Select the best places to fuel a semi. Enter your truck specs and begin your route!
                     </div>
                 </article>
-                <article>
-                    <a href="https://github.com/benuklove/fsndp1">
+                <article class="project">
+                    <a href="https://github.com/benuklove/fsndp1" target="_blank">
                     <img class="project-img" src="img/sm-movie.png" alt="Picture movie website."></a>
                     <h3>MOVIE TRAILERS</h3>
                     <p>https://github.com/benuklove/fsndp1</p>

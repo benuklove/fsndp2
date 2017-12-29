@@ -28,13 +28,26 @@ main {
   width: 100%;
 }
 
-section {
+.logo {
+  text-align: left;
+  width: auto;
+  max-width: 150px;
+  max-height: 80px;
+}
+
+.flex-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-container {
   display: flex;
   flex-wrap: wrap;  
   justify-content: space-between;
 }
 
-article {
+.project {
   text-align: center;
   margin-bottom: 1.4em;
 }

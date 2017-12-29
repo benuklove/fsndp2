@@ -22,7 +22,7 @@ body {
   font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
   color: #2d3c49;
   text-align: center;
-  max-width: 490px;
+  max-width: 870px;
   margin: auto;
 }
 
@@ -58,6 +58,7 @@ main {
   text-align: center;
   width: 100%;
   max-width: 100%;
+  height: 300px;
 }
 
 .project-img {
