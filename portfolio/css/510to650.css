@@ -1,0 +1,78 @@
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+p {
+  margin-top: .1em;
+  margin-bottom: .5em;
+  font-size: .7em;
+  width: 200px;
+  max-width: 100%;
+}
+
+header, subheader, section, article, div {
+  min-width: 48px;
+}
+
+header {
+  text-align: right;
+}
+
+body {
+  font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+  color: #2d3c49;
+  text-align: center;
+  max-width: 490px;
+  margin: auto;
+}
+
+main {
+  width: 100%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: space-between;
+}
+
+article {
+  text-align: center;
+  margin-bottom: 1.4em;
+}
+
+.top-picture {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.project-img {
+  width: 200px;
+  max-width: 100%;
+  max-height: 150px;
+  margin-bottom: .2em;
+}
+
+.project-detail {
+  width: 200px;
+  max-width: 100%;
+  font-size: .9em;
+  margin-top: .2em;
+}
+
+.subheader {
+  text-align: left;
+  color: #7d97ad;
+  margin-top: 1em;
+  margin-bottom: .2em;
+}
+
+hr {
+  max-width: 100%;
+  border-width: 2px;
+  border-color: #7d97ad;
+  border-style: solid;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
